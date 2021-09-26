@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" >
     </head>
     <body>
-        <img src="https://cdn.freelogovectors.net/wp-content/uploads/2020/11/hello_logo.png" width="200" height="100">
+        <img src="hello_logo.png" width="200" height="100">
         <br>
         <form action="greet" method="POST">
             {% for message in get_flashed_messages() %}
